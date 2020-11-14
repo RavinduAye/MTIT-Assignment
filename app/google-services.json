@@ -1,0 +1,48 @@
+{
+  "project_info": {
+    "project_number": "1062969125316",
+    "firebase_url": "https://jokeapp-bf222.firebaseio.com",
+    "project_id": "jokeapp-bf222",
+    "storage_bucket": "jokeapp-bf222.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:1062969125316:android:d36289d7d4a118c88b1c91",
+        "android_client_info": {
+          "package_name": "com.example.joke_app"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "1062969125316-7bp5pl1gavl3urgbfvam7cfqoe4o37jg.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.joke_app",
+            "certificate_hash": "3fbda096a22fcf1bbc31738dcc2065910243ab34"
+          }
+        },
+        {
+          "client_id": "1062969125316-ngaaoflhs41ajjp3tpj0j5upng9jgnia.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAvUNo3gGYHps-xfYxfQxkrKJH2f5bMX1k"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "1062969125316-ngaaoflhs41ajjp3tpj0j5upng9jgnia.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
