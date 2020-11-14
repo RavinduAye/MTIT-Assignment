@@ -39,7 +39,7 @@ public class MainActivity extends AppCompatActivity {
         text_setup = findViewById(R.id.textSetup);
         text_punchLine = findViewById(R.id.textPunchLine);
         progressBar3 = findViewById(R.id.progressBar3);
-        progressBar3.setVisibility(View.VISIBLE);
+        progressBar3.setVisibility(View.INVISIBLE);
 
     }
 
@@ -77,6 +77,8 @@ public class MainActivity extends AppCompatActivity {
                     text_punchLine.setText(joke.getPunchLine()+"");
                     text_punchLine.setVisibility(View.VISIBLE);
 
+                    progressBar3.setVisibility(View.INVISIBLE);
+
 
                 } catch (JSONException e) {
                     e.printStackTrace();
@@ -96,4 +98,5 @@ public class MainActivity extends AppCompatActivity {
 
         queue.add(jsonObjectRequest);
     }
+
 }
